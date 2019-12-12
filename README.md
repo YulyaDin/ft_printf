@@ -10,15 +10,20 @@ ft_printf recodes (but not fully) the libc’s printf function. This ft_printf d
 # Usage
 Run the following commands:
 
-* To compile
-	make
+* To compile write:
+
+make
 * To remove objects:
-	make clean
+
+make clean
 * To remove objects and binary file (program):
-	make fclean
+
+make fclean
 * To re-compile:
-	make re
+
+make re
 * Executing
+
 To test the library, first write and compile main.c with the library:
 gcc -o test main.c libftprintf.a
 ./test
