@@ -25,5 +25,7 @@ make re
 * Executing
 
 To test the library, first write and compile main.c with the library:
+
 gcc -o test main.c libftprintf.a
+
 ./test
